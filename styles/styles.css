@@ -249,7 +249,7 @@ h4 {
     line-height: 26px;
 }
 
-h3 {
+.spain {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -322,7 +322,41 @@ h3 {
     font-family: "Aleo", serif;
 }
 
+.rectangle {
+    display: flex;
+    margin: 245px 329px 199px 442px;
+    justify-content: center;
+    align-items: center;
+}
+
 .sam {
     font-family: "Aleo", serif;
+    font-size: 36px;
+    color: #ffff;
+    display: flex;
+}
 
+.sam-text {
+    background: #333333;
+    max-width: 668px;
+    height: 242px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-sam {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffff;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.fas.fa-quote-left {
+    color: #5474FD
 }
