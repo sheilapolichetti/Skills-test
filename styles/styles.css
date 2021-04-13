@@ -334,6 +334,7 @@ h4 {
     font-size: 36px;
     color: #ffff;
     display: flex;
+    margin-top: 49px;
 }
 
 .sam-text {
@@ -343,7 +344,7 @@ h4 {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .text-sam {
@@ -358,13 +359,15 @@ h4 {
 }
 
 .fas.fa-quote-left {
-    color: #5474FD
+    color: #5474FD;
+    font-size: 36px;
+    display: flex;
 }
 
 footer {
     width: 100%;
     max-width: 2500px;
-    height: 268px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,4 +382,12 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 120px 787px 97px 787px;
+}
+
+.icons {
+    color:#ffff;
+}
+
+.fab.fa-linkedin-in {
+    color: #5474FD;
 }
