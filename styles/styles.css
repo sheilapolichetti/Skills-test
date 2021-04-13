@@ -360,3 +360,23 @@ h4 {
 .fas.fa-quote-left {
     color: #5474FD
 }
+
+footer {
+    width: 100%;
+    max-width: 2500px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232323;
+    color: #ffff;
+}
+
+.footer-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    display: flex;
+    flex-direction: column;
+    margin: 120px 787px 97px 787px;
+}
