@@ -1,0 +1,95 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-image {
+    background-image: url(../images/mountainsbackground.png);
+    width: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #ffff;
+    letter-spacing: 4px;
+    line-height: 26px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #ffff;
+    line-height: 26px;
+    letter-spacing: 6px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 653px;
+    min-height: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffff;
+    box-sizing: border-box;
+    
+}
+
+.search-bar {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text {
+width: 503px;
+height: 63px;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 14px;
+letter-spacing: 4px;
+text-align: center;
+background: #f1f1f1;
+border: none;
+}
+
+.search-btn {
+    width: 153px;
+    height: 65px;
+    font-family: "Aleo", serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+    background: #5474FD;
+    color: #ffff;
+    text-transform: uppercase;
+    border: 2px solid #ffff;
+}
+
+.scroll-down {
+    display: flex;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    flex-direction: column;
+    color: #ffff;
+    margin-bottom: 50px;
+    min-height: 100px;
+
+}
