@@ -147,6 +147,19 @@ nav li {
     align-items: center;
 }
 
+.mid-header {
+    background-color: #333333;
+    max-width: 2500px;
+    height: 337px;
+    width: 100%;
+}
+
+.container-mid {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .text-left {
     display: flex;
     flex-direction: column;
